@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablero de ajedrez</title>
+    <style>
+
+        #tablero{
+            display: grid;
+            grid-template-columns: repeat(8,60px);
+            grid-template-rows: repeat(8,60px);
+        }
+
+        div div{ 
+            width: 60px;
+            height: 60px;
+            background-color: white;
+            border: 1px solid black;
+        } 
+        body{
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            place-items: center;           
+        }
+        #tablero div:nth-child(odd) div:nth-child(even){ background-color: black;
+        }
+        #tablero div:nth-child(even) div:nth-child(odd){
+            background-color: black;
+        }
+        #tablero *{
+            text-align: center;
+            font-size: 50px;
+        }
+       
+       
+      
+      
+
+    </style>
+</head>
+<body>
+    <div id="tablero">
+        <div>
+            <div>&#9814</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div>&#9815</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div>&#9816</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div>&#9813</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div>&#9812</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div>&#9816</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div>&#9815</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div>&#9814</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+      
+
+    </div>
+    
+</body>
+</html>
